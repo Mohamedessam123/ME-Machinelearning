@@ -15,3 +15,10 @@ with st.expander('Data'):
   st.table(df.iloc[0:10])
 with st.expander('Data Visualization'):
   st.scatter_chart(data=df,x='bill_length_mm',y='body_mass_g',color='species')
+with st.sidebar:
+  st.header("Input Features")
+  island=st.selectbox("Island",('Biscoe','Dream','Torgersen'))
+  gender=st.selectbox("gender",('Male','Female'))
+  bill_length_mm = st.slider('Bill Length (MM) ',(32.1,59.6,40.1))
+  flipper_length_mm = st.slider('Flipper length (mm)',(172.0,231.0,200))
+  body_mass_g = st.slider('Body mass (g)',2700.0,6300.0,4200.7)
