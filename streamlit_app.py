@@ -12,3 +12,6 @@ with st.expander('Data'):
   st.write('**Y**')
   y = df.species
   y
+  st.table(df.iloc[0:10])
+with st.expander('Data Visualization'):
+  st.
