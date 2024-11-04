@@ -7,7 +7,7 @@ with st.expander('Data'):
   df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
   df
   st.write('**X**')
-  x = df.drop('species')
+  x = df.drop('species', axis=1)
   x
   st.write('**Y**')
   y = df.species
