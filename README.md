@@ -3,7 +3,7 @@
 ⬆️ Mohamed Essam Fawzy 
 ```
 
-This is a Mchine Learning APP..
+This is a Machine Learning APP..
 
 ## Demo App
 
