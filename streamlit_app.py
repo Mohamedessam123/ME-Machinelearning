@@ -22,5 +22,12 @@ with st.sidebar:
   bill_length_mm = st.slider('Bill Length (MM) ',32.1,59.6,40.1)
   flipper_length_mm = st.slider('Flipper length (mm)',66.0,231.0,200.0)
   body_mass_g = st.slider('Body mass (g)',2700.0,6300.0,4200.0)
-
+  
+  data = {'island': island,
+          'bill_length_mm': bill_length_mm,
+          'bill_depth_mm': bill_depth_mm,
+          'flipper_length_mm': flipper_length_mm,
+          'body_mass_g': body_mass_g,
+          'sex': gender}
+  st.write(data)
   
