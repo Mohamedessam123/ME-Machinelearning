@@ -112,11 +112,15 @@ st.dataframe(df_prediction_proba,
 penguins_species = np.array(['Adelie', 'Chinstrap', 'Gentoo'])
 st.success(str(penguins_species[prediction][0]))
 
-st.markdown("""
+st.markdown(
+    """
     <style>
+    /* Set the background color to black */
     .stApp {
-        background-color: #FFFFFF; /* Replace with your desired color */
+        background-color: black;
     }
     </style>
-    """, unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True
+)
   
