@@ -30,8 +30,8 @@ with st.sidebar:
   st.markdown(
     """
     <style>
-    /* Set the background color to black */
-    .stApp {
+    /* Change the sidebar background color */
+    .css-1d391kg {
         background-color: black;
     }
     </style>
