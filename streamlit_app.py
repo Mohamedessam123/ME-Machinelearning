@@ -115,7 +115,7 @@ st.success(str(penguins_species[prediction][0]))
 st.markdown("""
     <style>
     .stApp {
-        background-color: #f0f2f6; /* Replace with your desired color */
+        background-color: #FFFFFF; /* Replace with your desired color */
     }
     </style>
     """, unsafe_allow_html=True)
