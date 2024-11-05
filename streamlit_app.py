@@ -30,12 +30,12 @@ st.markdown(
     """
     <style>
     /* Change the sidebar background color */
-    .css-1d391kg { 
-        background-color: black; 
+    section[data-testid="stSidebar"] {
+        background-color: black;
     }
     /* Change the slider color */
-    .stSlider > div > div > div > div {
-        background-color: yellow; 
+    div[data-testid="stSlider"] > div > div > div > div {
+        background-color: yellow;
     }
     </style>
     """,
