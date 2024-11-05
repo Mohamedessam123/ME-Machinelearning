@@ -31,11 +31,11 @@ st.markdown(
     <style>
     /* Change the sidebar background color */
     section[data-testid="stSidebar"] {
-        background-color: blue;
+        background-color: grey;
     }
     /* Change the slider color */
     div[data-testid="stSlider"] > div > div > div > div {
-        background-color: yellow;
+        background-color: red;
     }
     </style>
     """,
