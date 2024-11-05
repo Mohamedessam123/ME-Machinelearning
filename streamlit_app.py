@@ -26,12 +26,16 @@ with st.sidebar:
   bill_length_mm = st.slider('Bill Length (MM) ',32.1,59.6,40.1)
   flipper_length_mm = st.slider('Flipper length (mm)',66.0,231.0,200.0)
   body_mass_g = st.slider('Body mass (g)',2700.0,6300.0,4200.0)
-  st.markdown(
+st.markdown(
     """
     <style>
     /* Change the sidebar background color */
-    .css-1d391kg {
-        background-color: black;
+    .css-1d391kg { 
+        background-color: black; 
+    }
+    /* Change the slider color */
+    .stSlider > div > div > div > div {
+        background-color: yellow; 
     }
     </style>
     """,
